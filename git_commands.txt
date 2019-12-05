@@ -4,3 +4,8 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/ashisharora24/python_learning.git
 git push -u origin master
+
+-------------------------------------------
+git add .
+git commit -m "updated pydoc in chapter 1"
+git push -u origin master
