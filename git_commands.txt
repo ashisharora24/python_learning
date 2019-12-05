@@ -7,5 +7,5 @@ git push -u origin master
 
 -------------------------------------------
 git add .
-git commit -m "updated pydoc in chapter 1"
+git commit -m "output statements in chapter 2"
 git push -u origin master
