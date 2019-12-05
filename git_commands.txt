@@ -7,5 +7,9 @@ git push -u origin master
 
 -------------------------------------------
 git add .
-git commit -m "input statements in chapter 3"
+git commit -m "output statements  in chapter 1"
+git push -u origin master
+-------------------------------------------
+git add .
+git commit -m "arrays, numpy in chapter 5"
 git push -u origin master
