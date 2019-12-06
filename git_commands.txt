@@ -11,5 +11,5 @@ git commit -m "output statements  in chapter 1"
 git push -u origin master
 -------------------------------------------
 git add .
-git commit -m "arrays, numpy in chapter 5"
+git commit -m "strings in chapter 6"
 git push -u origin master

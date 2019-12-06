@@ -303,6 +303,9 @@ print(diagonal(arr))
 
 
 
+
+
+
 ''' TRANSPOSE:
     syntax :
         arr.transpose()
@@ -311,6 +314,9 @@ t = arr.transpose()
 print(t)
 
 
+
+'''
+    random number generator'''
 
 # random number generated as single element
 print(random.rand())
