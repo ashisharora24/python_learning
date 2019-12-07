@@ -7,7 +7,7 @@ git push -u origin master
 
 -------------------------------------------
 git add .
-git commit -m "logging in chapter 11"
+git commit -m "files in chapter 12 and directories in chapter 13"
 git push -u origin master
 -------------------------------------------
 git add .
