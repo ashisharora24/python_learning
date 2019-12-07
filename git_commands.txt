@@ -7,7 +7,7 @@ git push -u origin master
 
 -------------------------------------------
 git add .
-git commit -m "list and tuples in chapter 8"
+git commit -m "dictionary in chapter 9"
 git push -u origin master
 -------------------------------------------
 git add .
