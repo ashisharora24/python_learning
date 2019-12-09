@@ -7,9 +7,5 @@ git push -u origin master
 
 -------------------------------------------
 git add .
-git commit -m "files in chapter 12 and directories in chapter 13"
-git push -u origin master
--------------------------------------------
-git add .
-git commit -m "strings in chapter 6"
+git commit -m "database in chapter 16"
 git push -u origin master
