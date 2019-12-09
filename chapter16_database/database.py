@@ -1,12 +1,20 @@
+'''
+    INSTALL FOLLOWING
+    syntax :
+        pip install mysql-connector-python
+'''
+
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 ''' fetch ONE ROW AT A TIME from database '''
 
 import mysql.connector
 
 conn = mysql.connector.connect(
                 host = 'localhost',
-                database = 'world',
+                database = 'urbanclap',
                 user = 'root',
-                password = 'nag123'
+                password = 'admin'
                 )
 
 if conn.is_connected():
@@ -14,7 +22,7 @@ if conn.is_connected():
 
 cursor = conn.cursor()
 
-cursor =execute("select * from abc")
+cursor.execute("select * from uc")
 
 ### getting one row at a time
 row = cursor.fetchone()
@@ -38,9 +46,9 @@ import mysql.connector
 
 conn = mysql.connector.connect(
                 host = 'localhost',
-                database = 'world',
+                database = 'urbanclap',
                 user = 'root',
-                password = 'nag123'
+                password = 'admin'
                 )
 
 if conn.is_connected():
@@ -48,30 +56,30 @@ if conn.is_connected():
 
 cursor = conn.cursor()
 
-cursor =execute("select * from abc")
+cursor.execute("select * from uc")
 
 ### getting one row at a time
 rows = cursor.fetchall()
 
 print("row count : ", cursor.rowcount)
 
-from row in rows:
+for row in rows:
     print(row)
 
 cursor.close()
 conn.close()
 
-# ------------------------------------------------------------------------------
-
-''' INSERT STATEMENT '''
-
+# # ------------------------------------------------------------------------------
+#
+# ''' INSERT STATEMENT '''
+#
 import mysql.connector
 
 conn = mysql.connector.connect(
                 host = 'localhost',
-                database = 'world',
+                database = 'urbanclap',
                 user = 'root',
-                password = 'nag123'
+                password = 'admin'
                 )
 
 if conn.is_connected():
@@ -79,14 +87,14 @@ if conn.is_connected():
 
 cursor = conn.cursor()
 
-str = 'INSERT INTO abc (name) value ("ashish")'
-
 try:
+    str = 'INSERT INTO test (test)  VALUES (3)'
     cursor.execute(str)
     conn.commit()
-    print("1 row inserted")
+    print(cursor.rowcount, "record inserted.")
 except:
     conn.rollback()
+    print("failed")
 
 cursor.close()
 conn.close()
