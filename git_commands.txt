@@ -7,5 +7,5 @@ git push -u origin master
 
 -------------------------------------------
 git add .
-git commit -m "class and object completed in in chapter 17"
+git commit -m "polymorphism completed in chapter 19"
 git push -u origin master
