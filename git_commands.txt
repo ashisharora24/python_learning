@@ -7,5 +7,5 @@ git push -u origin master
 
 -------------------------------------------
 git add .
-git commit -m "database in chapter 16"
+git commit -m "class and object completed in in chapter 17"
 git push -u origin master
