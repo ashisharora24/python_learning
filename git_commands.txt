@@ -7,5 +7,5 @@ git push -u origin master
 
 -------------------------------------------
 git add .
-git commit -m "polymorphism completed in chapter 19"
+git commit -m "interface completed in chapter 20"
 git push -u origin master
